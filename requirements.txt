@@ -1,0 +1,36 @@
+# langchain core
+langchain
+langchain-core
+
+# openai integration
+langchain-openai
+openai
+
+# anthropic integration
+langchain-anthropic
+anthropic
+
+# google generative AI (PaLM) integration
+langchain-google-genai
+google-genai # google-generativeai->depricated
+
+# huggingface integration
+langchain-huggingface
+huggingface-hub
+transformers
+
+# machine learning utilities
+numpy
+scikit-learn
+
+# environment variables
+python-dotenv
+
+# notebook support
+jupyterlab
+ipykernel
+ipywidgets
+
+# pytorch for huggingface models
+torch
+
