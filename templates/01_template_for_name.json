@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "product"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nI want you to act as a naming consultant for new companies.\nWhat is a good name for a company that makes {product}?",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
