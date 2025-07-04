@@ -1,0 +1,79 @@
+{
+  "properties": {
+    "key_themes": {
+      "description": "Write down all the key themes discussed in the review in a list",
+      "items": {
+        "type": "string"
+      },
+      "title": "Key Themes",
+      "type": "array"
+    },
+    "summary": {
+      "description": "A brief summary of the review",
+      "title": "Summary",
+      "type": "string"
+    },
+    "sentiment": {
+      "description": "Return sentiment of the review either negative, positive or neutral",
+      "enum": [
+        "pos",
+        "neg",
+        "none"
+      ],
+      "title": "Sentiment",
+      "type": "string"
+    },
+    "pros": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Write down all the pros inside a list",
+      "title": "Pros"
+    },
+    "cons": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Write down all the cons inside a list",
+      "title": "Cons"
+    },
+    "name": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": "UNKNOWN",
+      "description": "Write the name of the reviewer",
+      "title": "Name"
+    }
+  },
+  "required": [
+    "key_themes",
+    "summary",
+    "sentiment"
+  ],
+  "title": "Review",
+  "type": "object"
+}
