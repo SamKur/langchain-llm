@@ -34,3 +34,6 @@ ipywidgets
 # pytorch for huggingface models
 torch
 
+# typechecking
+mypy
+pydantic[email,timezone]
