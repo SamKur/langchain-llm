@@ -37,3 +37,6 @@ torch
 # typechecking
 mypy
 pydantic[email,timezone]
+
+# to draw chain graphs
+grandalf
