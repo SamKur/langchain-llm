@@ -2,6 +2,10 @@
 langchain
 langchain-core
 
+# langchain extras
+langchain-community
+langchain-experimental
+
 # openai integration
 langchain-openai
 openai
@@ -40,3 +44,26 @@ pydantic[email,timezone]
 
 # to draw chain graphs
 grandalf
+
+# embeding generation
+chromadb
+pinecone-client
+faiss-cpu
+tiktoken
+pypdf
+
+# newer embeding packages
+langchain-chroma
+# langchain-faiss   # requires py>=3.11
+langchain-pinecone
+
+# retriever
+wikipedia
+
+# rag helpers
+youtube-transcript-api
+
+# tools
+ddgs
+duckduckgo-search
+langchain-tavily

@@ -3,3 +3,4 @@ lang_venv/
 __pycache__/
 LangchainModels/
 temps/
+my_chroma_db/
