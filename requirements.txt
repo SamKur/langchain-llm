@@ -48,6 +48,7 @@ grandalf
 # embeding generation
 chromadb
 pinecone-client
+qdrant-client
 faiss-cpu
 tiktoken
 pypdf
@@ -56,6 +57,7 @@ pypdf
 langchain-chroma
 # langchain-faiss   # requires py>=3.11
 langchain-pinecone
+langchain-qdrant
 
 # retriever
 wikipedia
